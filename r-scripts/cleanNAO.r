@@ -37,5 +37,9 @@ tempDf$DAY <- NULL
 #Rename columns
 colnames(tempDf) <- c('NAO_Value','DATE')
 
+# #Fix DATE
+# NAO <- read.csv('clean-data/NAO_Index_80_20.csv')
+# NAO <- data.frame(NAO)
+
 #export to CSV
-write.csv(tempDf,'clean-data/NAO_Index_80_20.csv',row.names=FALSE)
+#write.csv(tempDf,'clean-data/NAO_Index_80_20.csv',row.names=FALSE)
